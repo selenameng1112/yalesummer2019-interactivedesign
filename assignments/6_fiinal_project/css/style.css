@@ -1,0 +1,55 @@
+﻿body {
+    color: #373737;
+    font-size: 14px;
+    font-family: 'font';
+	margin:0 auto;
+	position:relative;
+    overflow-x: hidden;
+    background: url(../images/back.png) center top no-repeat; background-size: cover;
+}
+@font-face {
+  font-family: 'font';
+
+  src: url('../fonts/font.eot');
+  src: url('../fonts/fonteot?#iefix') format('embedded-opentype'), url('../fonts/font.woff2') format('woff2'), url('../fonts/font.woff') format('woff'), url('../fonts/font.ttf') format('truetype'), url('../fonts/font.svg#FZBWKSJW') format('svg');
+}
+.img-hide{ overflow:hidden; }
+.img-hide img{ transition: 0.5s all; }
+.img-hide:hover img{ transform: scale(1.1,1.1); }
+.txt-elise{overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;}
+li{ list-style:none;}
+ul{ padding:0; margin:0;}
+a:hover{ text-decoration:none !important;}
+a:focus{ text-decoration:none !important; outline: none !important;}
+button:focus,button:hover,input:focus{ outline: none!important; }
+img{ max-width:100%;}
+.fix-list{ position: fixed; right: 0; top: 0; bottom: 0; border-bottom:solid 1px #b2b2b2; margin-bottom: -18px; }
+.fix-list li{height: 5.555555%; border:solid 1px #b2b2b2; text-align: center; border-bottom: none; margin-bottom: -1px; padding:5px;}
+.fix-list li img{ width:auto; height: 100%; }
+.tabs-p{ font-size: 22px; color: #080808; text-align: justify; text-indent: 2em; line-height: 36px; font-family: 宋体; }
+.tabs-center{ width: 1020px; margin:0 auto;    display: table-cell;
+    vertical-align: middle;
+
+    height: 100%; }
+.tabs-center img{ margin:0 auto; }
+.tabs-a{ display: inline-block; border:solid 1px #494949; font-size: 26px; color: #494949; width: 140px; height: 40px; line-height: 38px; margin-top: 100px; font-family: 宋体;}
+
+.tabs-a1{ display: inline-block; border:solid 1px #494949; font-size: 26px; color: #494949; width: 140px; height: 40px; line-height: 38px; margin-top: 100px;font-family: 宋体 }
+
+
+.tabs-box{ width: 1020px; margin:50px auto; }
+.audio-box{ display: none; }
+.laba{ width: 24px; height: 24px; background: url(../images/laba.png) center no-repeat; background-size: 100% auto; position: absolute; right: 15px; top: 3px; }
+.laba.active{background: url(../images/laba02.png) center no-repeat; background-size: 100% auto;}
+.about-box{ width: 1200px; margin:50px auto; }
+.about-p p{ font-size: 30px; color: #000; line-height: 55px; font-family: 宋体}
+.tabs-a-l{ width: 286px; font-size: 26px; font-family: 宋体}
+.tabs-a-r{ width: 120px; font-size: 26px; margin-left: 42px; font-family: 宋体}
+.go-back{ display: inline-block; margin-right: 30px; margin-top: -10px; }
+.pull-left .tabs-a{ margin-top: 10px; }
+.pull-left .tabs-a1{ margin-top: 10px; }
+
+.in-block{ display: inline-block; margin-top: 20px; }
+.fix-list li.active{ border:solid 4px #b2b2b2; }
